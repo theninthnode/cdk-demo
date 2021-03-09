@@ -29,7 +29,7 @@ const init = async () => {
             return `
                 <html>
                     <form action="/submit" method="post">
-                        <input type="text" placeholder="Enter a word" name="word" />
+                        <input type="text" placeholder="Enter a word" name="word" autocomplete="off" />
                         <button>Save</button>
                     </form>
                 </html>
