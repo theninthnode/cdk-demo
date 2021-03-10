@@ -54,8 +54,7 @@ export class CdkDemoStack extends cdk.Stack {
             },
             events: [
                 new SqsEventSource(queue)
-            ],
-            description: `Generated on: ${new Date().toISOString()}`
+            ]
         })
 
         // Give the insert handler function permissions to put item into words table
@@ -68,8 +67,7 @@ export class CdkDemoStack extends cdk.Stack {
             handler: 'index.groupWords',
             environment: {
                 TABLE_NAME: groupTable.tableName
-            },
-            description: `Generated on: ${new Date().toISOString()}`
+            }
         })
 
         // Grant the stream handler permissions to put items in the groups table
