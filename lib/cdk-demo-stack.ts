@@ -1,5 +1,4 @@
 import * as cdk from '@aws-cdk/core'
-import * as s3 from '@aws-cdk/aws-s3'
 import * as ecs from '@aws-cdk/aws-ecs'
 import * as iam from '@aws-cdk/aws-iam'
 import * as sqs from '@aws-cdk/aws-sqs'
