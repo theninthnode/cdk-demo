@@ -12,3 +12,15 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
  * `cdk deploy`      deploy this stack to your default AWS account/region
  * `cdk diff`        compare deployed stack with current state
  * `cdk synth`       emits the synthesized CloudFormation template
+
+## Installation
+
+* Install CDK via npm/yarn.
+* Install dependencies
+* Install dependencies in `resources/app` & `resources/web`
+
+## Run
+
+Make sure you have an aws profile set.
+
+`cdk deploy` or `cdk deploy --profile {profilename}`
